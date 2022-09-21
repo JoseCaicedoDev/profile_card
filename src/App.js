@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { FollowTheme } from './components/follow/follow';
+import imagenPerson from './components/assets/image-victor.jpg'
+import imageBg from './components/assets/bg-pattern-card.svg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <section className='container'>
+      <div className="card">
+        <img className='card__iamge-bg' src={imageBg} alt="" />
+        <img className='card__image-person' src={imagenPerson} alt="imagen Victor" />
+        <div className='container__name'>
+          <p className='card__name'>Victor Crest</p>
+          <p className='card__age'>26</p>
+        </div>
+        <p className='card__country'>London</p>
+        <div className='card__follow'>
+          <FollowTheme number='80K' description='Followers' />
+          <FollowTheme number='803K' description='Likes' />
+          <FollowTheme number='1.4K' description='Photos' />
+        </div>
+      </div>
+    </section>
+
+    </>
   );
 }
 

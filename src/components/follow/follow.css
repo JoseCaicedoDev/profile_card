@@ -1,0 +1,15 @@
+.card__follow-number {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--Very-desaturated-blue);
+  margin: 0;
+  text-align: center;
+}
+
+.card__follow-description {
+  font-size: .7rem;
+  color: var(--Dark-grayish-blue);
+  letter-spacing: .1rem;
+  text-align: center;
+  margin-top: .5rem;
+}
