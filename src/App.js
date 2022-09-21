@@ -10,7 +10,7 @@ function App() {
         <img className='card__iamge-bg' src={imageBg} alt="" />
         <img className='card__image-person' src={imagenPerson} alt="imagen Victor" />
         <div className='container__name'>
-          <p className='card__name'>Victor Crest</p>
+          <h2 className='card__name'>Victor Crest</h2>
           <p className='card__age'>26</p>
         </div>
         <p className='card__country'>London</p>
