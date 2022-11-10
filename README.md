@@ -1,4 +1,4 @@
-# Card profile componente
+# Card profile component
 
 ![profile](https://user-images.githubusercontent.com/26255765/201203752-88439d93-c2ae-48aa-9502-8e961efada2b.png)
 
